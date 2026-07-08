@@ -41,8 +41,8 @@ function App() {
                   className="flag-icon rounded-circle shadow-sm"
                   style={{ width: '40px', height: '40px', objectFit: 'cover' }}
                 />
-                <div className="rounded-circle profile-pic-placeholder shadow-sm d-flex align-items-center justify-content-center bg-light" style={{ width: '100px', height: '100px' }}>
-                  <span className="fw-medium text-secondary">Já</span>
+                <div className="rounded-circle profile-pic-placeholder shadow-sm position-relative overflow-hidden bg-light" style={{ width: '140px', height: '140px' }}>
+                  <img src="images/Screenshot_20220813-213637_Facebook.jpg" className="rounded-circle position-absolute top-0 start-0" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
               </div>
 
@@ -53,17 +53,16 @@ function App() {
                   className="flag-icon rounded-circle shadow-sm"
                   style={{ width: '40px', height: '40px', objectFit: 'cover' }}
                 />
-                <div className="rounded-circle profile-pic-placeholder shadow-sm d-flex align-items-center justify-content-center bg-light" style={{ width: '100px', height: '100px' }}>
-                  <span className="fw-medium text-secondary">Elvira</span>
+                <div className="rounded-circle profile-pic-placeholder shadow-sm position-relative overflow-hidden bg-light" style={{ width: '140px', height: '140px' }}>
+                  <img src="images/file.enc.jpg" className="rounded-circle position-absolute top-0 start-0" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
               </div>
             </div>
 
-            {/* !!! SEM DÁŠ SVŮJ VLASTNÍ TEXT !!! */}
             <div className="custom-user-text mx-auto" style={{ maxWidth: '700px' }}>
               <h1 className="display-5 fw-semibold mb-3 hero-title">Me & Elvira</h1>
               <p className="lead text-body-secondary">
-                Sem vepiš svůj vlastní text. Může to být uvítání, váš oblíbený citát nebo krátký příběh o tom, jak jste se poznali. Prostor je tvůj!
+                TEXT WILL BE ADDED SOON!
               </p>
             </div>
 
@@ -105,20 +104,8 @@ function App() {
               <div className="col-lg-5">
                 <div className="placeholder-stack">
                   <div className="photo-slot photo-slot-large">
-                    <span>Photo Coming Soon</span>
-                  </div>
-                  <div className="row g-3 mt-0">
-                    <div className="col-6">
-                      <div className="photo-slot photo-slot-small">
-                        <span>Blank Image</span>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <div className="photo-slot photo-slot-small">
-                        <span>Blank Image</span>
-                      </div>
-                    </div>
-                  </div>
+                    <img src="images/Screenshot_20250613-190920_WhatsApp.jpg" alt="Me" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  </div>             
                 </div>
               </div>
             </div>
