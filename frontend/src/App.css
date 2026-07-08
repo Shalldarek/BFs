@@ -148,6 +148,32 @@ body {
   min-height: 220px;
 }
 
+.sayings-table-wrap {
+  border: 1px solid rgba(95, 64, 48, 0.12);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.sayings-table thead th {
+  white-space: nowrap;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #725444;
+  background: rgba(246, 234, 223, 0.9);
+}
+
+.sayings-table tbody td {
+  vertical-align: top;
+  font-size: 0.95rem;
+  color: #4b3326;
+}
+
+.sayings-table tbody tr:nth-child(odd) {
+  background: rgba(255, 248, 240, 0.45);
+}
+
 @media (max-width: 991.98px) {
   .hero-title {
     font-size: calc(1.6rem + 3vw);
