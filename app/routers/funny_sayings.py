@@ -6,11 +6,22 @@ router = APIRouter()
 @router.get("/funny-sayings")
 async def get_funny_sayings():
     db = get_database()
-    hlasky_cursor = db.hlasky.find()
-    hlasky = await hlasky_cursor.to_list(length=100)
+    sayings_cursor = db.sayings.find()
+    sayings = await sayings_cursor.to_list(length=100)
 
-    for h in hlasky:
+    for h in sayings:
         h["_id"] = str(h["_id"])
     
-    return hlasky
+    return sayings
+
+@router.get("/funny-sayings/{saying_id}")
+async def get_funny_saying(saying_id: str):
+    db = get_database()
+    saying = await db.sayings.find_one({"_id": saying_id})
+
+    if saying:
+        saying["_id"] = str(saying["_id"])
+        return saying
+    else:
+        return {"error": "Saying not found"}
     
