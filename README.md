@@ -1,5 +1,7 @@
 # BFs
 
+⚠️ THE APP IS IN DEVELOPMENT PROCESS AND IT'S NOT DONE YET! ⚠️
+
 The current live deployment is available at https://bfs-4agu.onrender.com/.
 
 BFs is a full-stack personal site built with FastAPI, React, Vite, and MongoDB. It serves a small set of pages for memories, photos, and funny sayings, with a Python backend and a modern React frontend.
