@@ -17,6 +17,7 @@ app.include_router(funny_sayings.router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://bfs-4agu.onrender.com",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "http://localhost:8000",
