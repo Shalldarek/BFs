@@ -29,7 +29,7 @@ function HomePage() {
                 style={{ width: '40px', height: '40px', objectFit: 'cover' }}
               />
               <div className="rounded-circle profile-pic-placeholder shadow-sm position-relative overflow-hidden bg-light" style={{ width: '140px', height: '140px' }}>
-                <img src="images/file.enc.jpg" className="rounded-circle position-absolute top-0 start-0" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="public/images/file.enc.jpg" className="rounded-circle position-absolute top-0 start-0" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ function HomePage() {
             <div className="col-lg-5">
               <div className="placeholder-stack">
                 <div className="photo-slot photo-slot-large">
-                  <img src="images/Screenshot_20250613-190920_WhatsApp.jpg" alt="Me" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="public/images/Screenshot_20250613-190920_WhatsApp.jpg" alt="Me" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
               </div>
             </div>
@@ -126,17 +126,17 @@ function HomePage() {
           <div className="row g-3">
             <div className="col-md-4">
               <div className="photo-slot photo-slot-gallery">
-                <img src="images/20221227_203328.jpg" alt="Me" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="public/images/20221227_203328.jpg" alt="Me" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
             <div className="col-md-4">
               <div className="photo-slot photo-slot-gallery">
-                <img src="images/IMG-20260701-WA0004.jpg" alt="Elvira" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="public/images/IMG-20260701-WA0004.jpg" alt="Elvira" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
             <div className="col-md-4">
               <div className="photo-slot photo-slot-gallery">
-                <img src="images/Screenshot_20251220-095843_Instagram.jpg" alt="Memory 1" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="public/images/Screenshot_20251220-095843_Instagram.jpg" alt="Memory 1" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
           </div>
