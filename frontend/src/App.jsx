@@ -35,9 +35,9 @@ function HomePage() {
           </div>
 
           <div className="custom-user-text mx-auto" style={{ maxWidth: '700px' }}>
-            <h1 className="display-5 fw-semibold mb-3 hero-title">Me & Elvira</h1>
+            <h1 className="display-5 fw-semibold mb-3 hero-title">Vašek & Elvira</h1>
             <p className="lead text-body-secondary">
-              TEXT WILL BE ADDED SOON!
+              Best friends from different corners of the world, sharing laughs, stories and love. This is our little corner of the internet where we celebrate our friendship and the memories we create together.
             </p>
           </div>
 
@@ -49,16 +49,16 @@ function HomePage() {
           <div className="row g-4 align-items-center">
             <div className="col-lg-7">
               <span className="eyebrow badge rounded-pill text-bg-light mb-3">
-                My Little Corner of the World
+                Our Little Corner of the Internet
               </span>
               <p className="text-body-secondary mb-4">
-                A cozy spot for memories, shared jokes, and the calm moments I share with my Colombian friend, Elvira.
+                A cozy spot for memories, shared jokes, and the calm moments we share together. 
               </p>
 
               <div className="d-flex flex-wrap gap-3 mb-4">
                 <div className="pill-card">
                   <span className="pill-label">Friendship</span>
-                  <span className="pill-value">Strong & Easy</span>
+                  <span className="pill-value">Strong & For Ever</span>
                 </div>
                 <div className="pill-card">
                   <span className="pill-label">Vibe</span>
@@ -70,7 +70,7 @@ function HomePage() {
                 </div>
               </div>
               <div className="d-flex flex-wrap gap-2">
-                <span className="soft-tag">Coffee Chats</span>
+                <span className="soft-tag">Chats</span>
                 <span className="soft-tag">Long Talks</span>
                 <span className="soft-tag">Good Energy</span>
                 <span className="soft-tag">Shared Playlists</span>
@@ -91,10 +91,10 @@ function HomePage() {
         <div className="col-lg-6">
           <div className="card cozy-panel border-0 shadow-sm rounded-5 h-100">
             <div className="card-body p-4 p-lg-5">
-              <p className="section-kicker mb-2">About Me</p>
-              <h2 className="h3 mb-3">The One Building Memories</h2>
+              <p className="section-kicker mb-2">About Vašek</p>
+              <h2 className="h3 mb-3">El Señor Bromista</h2>
               <p className="text-body-secondary mb-0">
-                This space is for the simple details that matter: kind moments, funny conversations, and the kind of friendship that feels effortless.
+                I&apos;m a guy who loves to make people laugh and also the one who sent the first message to Elvira. Long story short, I&apos;m a student, IT enthusiast, and a friend who values the connections I make along the way. 
               </p>
             </div>
           </div>
@@ -104,9 +104,9 @@ function HomePage() {
           <div className="card cozy-panel border-0 shadow-sm rounded-5 h-100">
             <div className="card-body p-4 p-lg-5">
               <p className="section-kicker mb-2">About Elvira</p>
-              <h2 className="h3 mb-3">My Colombian Friend</h2>
+              <h2 className="h3 mb-3">La Señora Enojona</h2>
               <p className="text-body-secondary mb-0">
-                Elvira brings the bright side of every conversation. I&apos;m leaving this page ready for photos, stories, and anything else we want to add later.
+                Elvira is a wonderful friend from Colombia who has a great sense of humor and a warm heart. She is the one who keeps me grounded and always knows how to make me smile. Her friendship means the world to me, and I&apos;m grateful for every moment we share together.
               </p>
             </div>
           </div>
@@ -126,17 +126,17 @@ function HomePage() {
           <div className="row g-3">
             <div className="col-md-4">
               <div className="photo-slot photo-slot-gallery">
-                <span>Insert Image Here</span>
+                <img src="images/20221227_203328.jpg" alt="Me" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
             <div className="col-md-4">
               <div className="photo-slot photo-slot-gallery">
-                <span>Insert Image Here</span>
+                <img src="images/IMG-20260701-WA0004.jpg" alt="Elvira" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
             <div className="col-md-4">
               <div className="photo-slot photo-slot-gallery">
-                <span>Insert Image Here</span>
+                <img src="images/Screenshot_20251220-095843_Instagram.jpg" alt="Memory 1" className="rounded shadow-sm" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
           </div>

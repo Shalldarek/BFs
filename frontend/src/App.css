@@ -145,7 +145,13 @@ body {
 }
 
 .photo-slot-gallery {
+  aspect-ratio: 1 / 1;
   min-height: 220px;
+  overflow: hidden;
+}
+
+.photo-slot-gallery img {
+  display: block;
 }
 
 .sayings-table-wrap {
